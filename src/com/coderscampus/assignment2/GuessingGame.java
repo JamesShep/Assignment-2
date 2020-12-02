@@ -20,9 +20,7 @@ public class GuessingGame {
 
         Random random = new Random();
         randomNumber = random.nextInt(MAX_NUMBER)+1;
-
-        System.out.println(randomNumber);
-
+        
         while (playerGuessNumber < maxNumberOfGuesses) {
             System.out.println("Please pick a number between " + MIN_NUMBER + " and "
             + MAX_NUMBER);
